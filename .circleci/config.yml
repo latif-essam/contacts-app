@@ -9,5 +9,5 @@ jobs:
       - node/install
       - checkout
       - run:
-        name: hello
-        command: echo "Hello world"
+          name: hello
+          command: echo "Hello world"
