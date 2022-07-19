@@ -11,7 +11,7 @@
   "scripts": {
     "start": "node server.js",
     "clean": "rm -rf www && mkdir www",
-    "build": "yarn clean && cp -rf client/ www/client && cp -rf node_modules www/node_modules && cp -rf public/ www/public && cp config.js contacts.js server.js package.json www",
-    "zip": "yarn build && cd www && 7z -r a ../app.zip *"
+    "build": "npm run clean && cp -rf client/ www/client && cp -rf node_modules www/node_modules && cp -rf public/ www/public && cp config.js contacts.js server.js package.json www",
+    "zip": "npm run build && cd www && 7z -r a ../app.zip *"
   }
 }
