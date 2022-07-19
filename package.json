@@ -1,0 +1,22 @@
+{
+  "name": "contacts-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "frontend:install": "cd front && npm install",
+    "backend:install": "cd server && npm install",
+    "frontend:build": "cd front && npm run build",
+    "backend:build": "cd server && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/latif-essam/contacts-app.git"
+  },
+  "author": "udacity",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/latif-essam/contacts-app/issues"
+  },
+  "homepage": "https://github.com/latif-essam/contacts-app#readme"
+}
